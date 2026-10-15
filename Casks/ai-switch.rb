@@ -1,6 +1,6 @@
 cask "ai-switch" do
-  version "0.8.0"
-  sha256 "13ff8d4ac2b371f52a116d7bbe20981880ec70e1816eefad7fa3ec816f4912cb"
+  version "0.8.1"
+  sha256 "63cd0e377fcf47ae3900b737d0d1ae0b512df697d19cda10b7e19e674af3be3d"
 
   url "https://github.com/praysimanjuntak/ai-switch/releases/download/v#{version}/AI-Switch-#{version}-macOS-universal-beta.dmg"
   name "AI Switch"
