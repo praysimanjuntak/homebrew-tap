@@ -1,6 +1,6 @@
 cask "fast-share" do
-  version "1.0"
-  sha256 "d70ddb111421bf6fb5a2be58e338b33b1964451f7a3459ac82e9f4288042a591"
+  version "1.0.1"
+  sha256 "2e70131258efbe9a16c846eef4ceea76bd53afb43c595d77e3859404307bd882"
 
   url "https://github.com/praysimanjuntak/fast_share/releases/download/v#{version}/FastShare-#{version}.zip"
   name "Fast Share"
