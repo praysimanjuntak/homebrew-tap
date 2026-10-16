@@ -1,6 +1,6 @@
 cask "ai-switch" do
-  version "0.9.0"
-  sha256 "a3efc538a76738ac45be6e550f9f728b517641aa7f1ca06c3b30e4d0d75df0f4"
+  version "0.10.0"
+  sha256 "2d78aff36d1c2d056d3a7c7955d5da6bf22029a95e679dbb2549d2b740361cce"
 
   url "https://github.com/praysimanjuntak/ai-switch/releases/download/v#{version}/AI-Switch-#{version}-macOS-universal-beta.dmg"
   name "AI Switch"
@@ -10,6 +10,7 @@ cask "ai-switch" do
   depends_on macos: :sonoma
 
   app "AI Switch.app"
+  binary "#{appdir}/AI Switch.app/Contents/MacOS/AISwitch", target: "aiswitch"
 
   uninstall quit: "com.pray.AISwitch"
 
