@@ -1,10 +1,10 @@
 cask "ai-switch" do
-  version "0.10.1"
-  sha256 "8ba67c02efe3ee8c0073163913b35271d9e785387f1f13398fc1eb6448025b39"
+  version "0.11.0"
+  sha256 "d80044fe9e92ddf503fe579f80282b3af43dbd94a0580d982caec68c68d05f87"
 
   url "https://github.com/praysimanjuntak/ai-switch/releases/download/v#{version}/AI-Switch-#{version}-macOS-universal-beta.dmg"
   name "AI Switch"
-  desc "Switch between Codex and Claude Code accounts and see their usage"
+  desc "Switch between Codex, Claude Code, and Antigravity accounts and see their usage"
   homepage "https://github.com/praysimanjuntak/ai-switch"
 
   depends_on macos: :sonoma
